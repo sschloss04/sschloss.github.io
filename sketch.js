@@ -10,7 +10,7 @@ function setup() {
 }
 function backgroundStars(){
   
-  totalWidth = 60; //width of the shape + boarder
+  totalWidth = 70; //width of the shape + boarder
   totalHeight = 70;
   for(y = 0; y<window.innerHeight; y += totalHeight){
     for(x = 0; x<window.innerWidth; x += totalWidth){
@@ -32,21 +32,22 @@ function backgroundStars(){
       endShape();
     }
   }
- 
+ //rgb(101,206,125)
 }
 function draw() {
   clear();
-  background(168,219,168);
+  background(101,206,125);
   backgroundStars();
-  rectMode(CENTER);
-  stroke(0);
-  strokeWeight(4);
-  fill(58, 156, 156);
-        // 121, 189, 154
-  rect(window.innerWidth/3, window.innerHeight/3, 250,250,20);
-  fill(58, 156, 156);
-  rect(2*window.innerWidth/3, window.innerHeight/3, 250,250,20);
-  fill(58, 156, 156);
-  rect(window.innerWidth/2, 2*window.innerHeight/3, 575,250,20);
+  
+  // rectMode(CENTER);
+  // stroke(0);
+  // strokeWeight(4);
+  // fill(58, 156, 156);
+  //       // 121, 189, 154
+  // rect(window.innerWidth/3, window.innerHeight/3, 250,250,20);
+  // fill(58, 156, 156);
+  // rect(2*window.innerWidth/3, window.innerHeight/3, 250,250,20);
+  // fill(58, 156, 156);
+  // rect(window.innerWidth/2, 2*window.innerHeight/3, 575,250,20);
   noLoop();
 }
