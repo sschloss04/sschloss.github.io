@@ -35,6 +35,10 @@ table, tr, td {
   text-align: center;
   
 }
+div.c4{
+  max-width:100%;
+}
+/* could also just be div if it doesn't work*/
 table td:hover {
   background-color: #C3B1E1;
 
@@ -46,4 +50,10 @@ td{
 }
 canvas {
   display: block;
+}
+a {
+  color:black;
+}
+a:hover {
+  color: white;
 }
