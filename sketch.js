@@ -16,8 +16,8 @@ function backgroundStars(){
     for(x = 0; x<window.innerWidth; x += totalWidth){
       //fill(11, 72, 107)
       fill(219, 216, 2);
-      //noStroke();
-      stroke(0);
+      noStroke();
+      // stroke(255);
       beginShape();
       blpit = vertex(14+x,28+y);
       bp = vertex(21+x,42+y);
