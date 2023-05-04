@@ -35,9 +35,9 @@ table, tr, td {
   text-align: center;
   
 }
-div.c4{
+/* div.c4{
   max-width:100%;
-}
+} */
 /* could also just be div if it doesn't work*/
 table td:hover {
   background-color: #C3B1E1;
@@ -52,7 +52,7 @@ canvas {
   display: block;
 }
 a {
-  color:black;
+  color: black;
 }
 a:hover {
   color: white;
